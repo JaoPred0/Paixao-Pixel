@@ -33,10 +33,7 @@ const Footer = () => {
                     <div className="flex flex-col gap-2 text-center md:text-left">
                         <h3 className="font-semibold text-lg">Redes Sociais</h3>
                         <div className="flex gap-4 mt-1 justify-center md:justify-start">
-                            <a href="#" className="hover:text-pink-200 transition-colors"><Instagram className="w-6 h-6" /></a>
-                            <a href="#" className="hover:text-pink-200 transition-colors"><Facebook className="w-6 h-6" /></a>
-                            <a href="#" className="hover:text-pink-200 transition-colors"><BsTwitter className="w-6 h-6" /></a>
-                            <a href="mailto:contato@paixaopixel.com" className="hover:text-pink-200 transition-colors"><Mail className="w-6 h-6" /></a>
+                            <a href="https://www.instagram.com/paixao.pixel" className="hover:text-pink-200 transition-colors"><Instagram className="w-6 h-6" /></a>
                         </div>
                     </div>
                 </div>
