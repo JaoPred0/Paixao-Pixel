@@ -8,6 +8,7 @@ import TextAction from "./components/TextAction";
 import WhatsAppContact from "./components/WhatsAppContact";
 import Footer from "./components/Footer";
 import Checkout from "./pages/Checkout";
+import Sobre from "./pages/Sobre";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         />
         <Route path="/template/:id" element={<TemplateDetails />} />
         <Route path="/checkout" element={<Checkout />} />
+        <Route path="/sobre" element={<Sobre />} />
       </Routes>
       <Footer />  
     </BrowserRouter>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Heart, Mail, Instagram, Facebook, Twitter } from "lucide-react";
+import { BsTwitter } from "react-icons/bs";
 
 const Footer = () => {
     return (
@@ -22,10 +23,10 @@ const Footer = () => {
                 <div className="flex flex-col md:flex-row gap-8">
                     <div className="flex flex-col gap-2 text-center md:text-left">
                         <h3 className="font-semibold text-lg">Links</h3>
-                        <a href="#home" className="hover:text-pink-200 transition-colors">Início</a>
-                        <a href="#about" className="hover:text-pink-200 transition-colors">Sobre</a>
-                        <a href="#stories" className="hover:text-pink-200 transition-colors">Histórias</a>
-                        <a href="#contact" className="hover:text-pink-200 transition-colors">Fale Conosco</a>
+                        <a href="/" className="hover:text-pink-200 transition-colors">Início</a>
+                        <a href="/sobre" className="hover:text-pink-200 transition-colors">Sobre</a>
+                        <a href="templates" className="hover:text-pink-200 transition-colors">Templates</a>
+                        <a href="contato" className="hover:text-pink-200 transition-colors">Contato</a>
                     </div>
 
                     {/* Redes sociais */}
@@ -34,7 +35,7 @@ const Footer = () => {
                         <div className="flex gap-4 mt-1 justify-center md:justify-start">
                             <a href="#" className="hover:text-pink-200 transition-colors"><Instagram className="w-6 h-6" /></a>
                             <a href="#" className="hover:text-pink-200 transition-colors"><Facebook className="w-6 h-6" /></a>
-                            <a href="#" className="hover:text-pink-200 transition-colors"><Twitter className="w-6 h-6" /></a>
+                            <a href="#" className="hover:text-pink-200 transition-colors"><BsTwitter className="w-6 h-6" /></a>
                             <a href="mailto:contato@paixaopixel.com" className="hover:text-pink-200 transition-colors"><Mail className="w-6 h-6" /></a>
                         </div>
                     </div>
