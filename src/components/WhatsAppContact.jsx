@@ -18,7 +18,7 @@ const WhatsAppContact = () => {
   };
 
   return (
-    <div id="contato" className="min-h-screen flex items-center justify-center bg-gradient-to-b from-pink-100 via-rose-200 to-purple-200 p-6">
+    <div id="contato" className="min-h-screen flex items-center justify-center p-6">
       <motion.div
         className="bg-white rounded-3xl shadow-3xl p-10 w-full max-w-5xl flex flex-col gap-8"
         initial={{ opacity: 0, y: 50 }}
